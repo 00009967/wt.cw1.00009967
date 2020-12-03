@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+font-family: 'Nerko One',
+cursive;
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100;1,200;1,300;1,400&family=Nerko+One&display=swap');
+
+font-family: 'Josefin Sans',
+sans-serif;
+font-family: 'Nerko One',
+cursive;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: green;
+}
+
+li, a, button {
+    font-family: "Josefin Sans";
+    font-weight: 500;
+    font-size: 16px;
+    color: #d4d0cf;
+    text-decoration: none;
+
+    
+}
+header.top {
+    display: flexbox;
+    justify-content: flex-start;
+}
+header.second {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: black;
+    height: 30px;
+}
+
+.logo {
+    cursor: pointer;
+    width: px;
+    height: 45px;
+    justify-content: flex-start;
+    
+}
+
+.nav_links {
+    list-style: none;
+
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: #0088a9;
+
+}
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136,169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(60, 207, 31, 0.8);
+}
