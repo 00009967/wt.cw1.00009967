@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_log.css">
+    <title>Login Page</title>
+</head>
+<body>
+
+<!-- Form area start -->
+    <div class="form">
+        <!-- login form start -->
+        <form action="" class="login-form" id="signin" method="post">
+            <img class="user_icon" src="img/male.png" alt="Email">
+            <input type="text" class="user-input"  name="" placeholder="Username" required>
+            <input type="text" class="user-input" name="" placeholder="Password" required>
+            <div class="options-01">
+                <label for="" class="remember-me"><input type="checkbox" name="" >Remember me </label>
+                <a href="#">Forgot your Password</a>
+            </div>
+            <input type="submit" name="" value="LOGIN" class="btn">
+            <div class="options-01">
+                <p>Not Registered? <a href="#signup">Create an Account</a></p><br><a href="index.html" class="back">Back</a>
+            </div>
+        </form>
+        <!-- Login form end -->
+        <!-- signup form start -->
+        <form action="" class="signup-form" id="signup" method="post">
+            <img src="img/plus.png" alt="" class="user_add">
+            <input type="text" class="user-input"  name="" placeholder="Username" required>
+            <input type="email" class="user-input" method="post" placeholder="Email" required>
+            <input type="password" class="user-input" placeholder="Password" method="post" required>
+            <input type="submit" value="SIGNUP" class="btn">
+            <div class="options-02">
+                <p>Already Registered? <a href="#signin">Sign In</a></p>
+            </div>
+
+
+        </form>
+        <!-- signup form end -->
+    </div>
+    <!-- Form area end -->
+</body>
+</html>
